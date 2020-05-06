@@ -1,0 +1,4 @@
+william, september 1st, 100000
+shannon, september 8th, 115000
+jim, september 15th, 85000
+bruce, september 29th, 130000

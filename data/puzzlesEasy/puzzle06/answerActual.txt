@@ -1,0 +1,4 @@
+440, binson c40, 10000 btus
+505, chiller z, 25000 btus
+570, freezon flux, 5000 btus
+375, z-free xl, 20000 btus

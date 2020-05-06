@@ -1,0 +1,5 @@
+is(A3, B1)
+comp(A2, B1, 3000, >)
+pairdiff(A0, A3, B2, C0)
+comp(A2, A1, 1500, <)
+either(C2, B3, A1)

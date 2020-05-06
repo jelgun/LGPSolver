@@ -1,0 +1,5 @@
+comp(B3, B1, >)
+either(A2, B1, B2)
+comp(B0, B1, 1, <)
+comp(A3, A1, <)
+pairdiff(A0, A3, C1, B3)

@@ -1,0 +1,4 @@
+henrietta, 9:00am, laundry room
+jack, 10:00am, living room
+kay, 8:00am, mud room
+zachary, 11:00am, dining room

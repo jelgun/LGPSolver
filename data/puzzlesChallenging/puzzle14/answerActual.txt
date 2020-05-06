@@ -1,0 +1,4 @@
+nathaniel, 1 gb, 256 gb
+philip, 2 gb, 384 gb
+greg, 3 gb, 512 gb
+kerry, 4 gb, 128 gb

@@ -1,0 +1,4 @@
+george, bournemouth, 1976
+olive, brighton, 1983
+carmen, le havre, 1969
+amelia, plymouth, 1962

@@ -1,0 +1,4 @@
+right whale, adam, 27 ft
+fin whale, brent, 25 ft
+beluga whale, dennis, 21 ft
+sei whale, herbert, 23 ft

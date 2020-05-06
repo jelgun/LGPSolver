@@ -1,0 +1,4 @@
+luther, berkshire, 28000
+oakland acres, essex, 37000
+quasqueton, hampshire, 31000
+charles city, nantucket, 34000

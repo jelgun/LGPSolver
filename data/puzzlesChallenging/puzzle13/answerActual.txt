@@ -1,0 +1,4 @@
+andy, coolidge, 14 minutes
+georgia, monroe, 8 minutes
+ed, nixon, 11 minutes
+loretta, van buren, 5 minutes

@@ -1,0 +1,4 @@
+30, edna easton, 8
+24, irma, 4
+27, jane, 12
+33, sonia, 2

@@ -1,0 +1,4 @@
+angel, 106 inches, 8
+charlie, 110 inches, 9
+gracie, 114 inches, 10
+merlin, 102 inches, 11

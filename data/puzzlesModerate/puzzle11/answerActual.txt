@@ -1,0 +1,4 @@
+jack, 1 gb, 128 gb
+rex, 3 gb, 512 gb
+wade, 6 gb, 256 gb
+fernando, 12 gb, 384 gb

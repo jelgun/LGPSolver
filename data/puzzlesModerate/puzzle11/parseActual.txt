@@ -1,0 +1,4 @@
+pairdiff(A3, A1, C0, B2)
+comp(A2, B2, 256, >)
+comp(A3, B0, 128, >)
+is(A2, B1)

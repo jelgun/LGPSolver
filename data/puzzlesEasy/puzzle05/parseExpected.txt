@@ -1,0 +1,5 @@
+diff(A1, C0, B1, B2)
+either(B2, A0, C2)
+is(A3, C2)
+is(B0, C3)
+comp(B0, C0, 1000000, >)

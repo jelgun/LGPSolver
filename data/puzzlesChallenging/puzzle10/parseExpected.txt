@@ -1,0 +1,3 @@
+pairdiff(B1, B2, A2, C0)
+pairdiff(A1, C3, B2, B0)
+pairdiff(B1, C1, A2, A3)

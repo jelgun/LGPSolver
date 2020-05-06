@@ -1,0 +1,5 @@
+pairdiff(C2, C3, B2, A1)
+comp(B3, B2, 5000, <)
+comp(A1, B1, 10000, >)
+comp(B3, A2, >)
+is(A0, B1)

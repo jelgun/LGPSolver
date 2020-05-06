@@ -1,0 +1,4 @@
+comp(C0, B3, 10, <)
+comp(B1, B0, 5, <)
+comp(B2, C1, 5, <)
+comp(C0, C3, >)

@@ -1,0 +1,4 @@
+9500, ed ewing, doctor
+10000, fred francis, lawyer
+8500, jed jarvis, teacher
+9000, kelly kirby, writer

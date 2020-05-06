@@ -1,0 +1,4 @@
+comp(C1, C3, 6, >)
+is(B0, A3)
+is(B3, A2)
+diff(B2, C3, A3, C0)

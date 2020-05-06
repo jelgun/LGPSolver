@@ -1,0 +1,5 @@
+comp(B0, C2, 1000, >)
+either(A1, C3, B2)
+is(B2, C2)
+either(A2, C0, B2)
+comp(B3, C0, 500, <)

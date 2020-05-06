@@ -1,0 +1,4 @@
+sarah, biology, 30000
+delores, finance, 25000
+vicky, philosophy, 40000
+martha, theology, 35000

@@ -1,0 +1,4 @@
+either(B1, C2, A1)
+either(B2, C0, A1)
+comp(B0, C3, 15, <)
+comp(C0, B1, 30, <)

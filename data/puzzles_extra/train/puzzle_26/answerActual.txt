@@ -1,0 +1,4 @@
+second, color blinds, blue
+first, splat squad, white
+fourth, spray paints, yellow
+third, target bombs, orange

@@ -1,0 +1,4 @@
+comp(C2, B2, 25, <)
+either(B1, A3, C0)
+comp(B1, B3, 25, <)
+diff(C1, A3, A0, B1)

@@ -1,0 +1,3 @@
+diff(C0, B1, B0, A0)
+pairdiff(C1, B3, A0, A3)
+comp(A2, B1, 36, <)

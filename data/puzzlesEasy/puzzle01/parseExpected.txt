@@ -1,0 +1,5 @@
+comp(C1, B3, 200000, >)
+is(B1, C3)
+comp(B1, B3, >)
+comp(C2, C0, 100000, <)
+either(B0, C3, A3)

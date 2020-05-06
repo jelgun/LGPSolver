@@ -1,0 +1,4 @@
+cate carlson, academic, 9000
+gilda gray, architect, 10000
+bev baird, teacher, 9500
+ida ingram, writer, 8500
