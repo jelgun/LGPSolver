@@ -3,7 +3,7 @@
 # Requirements
 
  - Python 3.6+
- - Pre-trained classification model https://www.dropbox.com/s/2c828chsmetcra5/classification_model.zip?dl=0
+ - Pre-trained classification model https://www.dropbox.com/s/2c828chsmetcra5/classification_model.zip?dl=0 (or train the model by yourself using train.py file)
 
 ## Usage
 
