@@ -1,0 +1,7 @@
+classification_model/
+venv/
+dataset 2/
+classification_model.preproc
+sources/
+distilbert training/
+.vscode/
