@@ -3,7 +3,6 @@ import json
 import csv
 import ktrain
 import os
-import os
 import bs4
 import lxml
 from bs4 import BeautifulSoup as bs
