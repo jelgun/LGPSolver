@@ -4,6 +4,7 @@
 
  - Python 3.6+
  - Pre-trained classification model https://www.dropbox.com/s/2c828chsmetcra5/classification_model.zip?dl=0 (or train the model by yourself using train.py file)
+ - Heideltime-standalone https://github.com/HeidelTime/heideltime (should be installed and configured in the main folder)
 
 ## Usage
 
