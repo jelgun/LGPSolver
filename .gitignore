@@ -4,3 +4,8 @@ dataset 2/
 classification_model.preproc
 sources/
 .vscode/
+config.props
+de.unihd.dbs.heideltime.standalone.jar
+heideltime_standalone/
+input.txt
+output.xml

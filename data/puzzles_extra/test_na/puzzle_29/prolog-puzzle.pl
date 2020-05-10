@@ -22,9 +22,9 @@ All = [B0,B1,B2,B3],
 all_members([c0, c1, c2, c3], [C0, C1, C2, C3]),
 all_members([1, 8, 15, 22], [A0, A1, A2, A3]),
 and([or([A3 = 22,member([22, c0], All)]), not(and([A3 = 22,member([22, c0], All)]))]),
-A1-A3=:=1,
+A1-A3=:=7,
 A0 = 15,
 C1 = c2,
 member([C2_val, c2], All),
 member([C1_val, c1], All),
-C2_val-C1_val=:=1.
+C2_val-C1_val=:=7.
