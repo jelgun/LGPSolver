@@ -20,9 +20,9 @@ B3 = [A3, C3],
 All = [B0,B1,B2,B3],
 
 all_members([c0, c1, c2, c3], [C0, C1, C2, C3]),
-all_members([9, 10, 11, 12], [A0, A1, A2, A3]),
+all_members([540, 600, 660, 720], [A0, A1, A2, A3]),
 member([C3_val, c3], All),
 C3_val<A2,
-A1-A2=:=2,
-member([11, c1], All),
-or([and([C3 = c2,A2 = 9]),and([C2 = c2,A3 = 9])]).
+A1-A2=:=120,
+member([660, c1], All),
+or([and([C3 = c2,A2 = 540]),and([C2 = c2,A3 = 540])]).

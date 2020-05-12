@@ -1,4 +1,4 @@
 comp(A3, B2, <)
-comp(B1, B2, 2, >)
+comp(B1, B2, 120, >)
 is(A1, C2)
 pairdiff(A2, C0, B3, B2)

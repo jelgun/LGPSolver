@@ -20,10 +20,10 @@ B3 = [A3, C3],
 All = [B0,B1,B2,B3],
 
 all_members([c0, c1, c2, c3], [C0, C1, C2, C3]),
-all_members([7, 7, 8, 8], [A0, A1, A2, A3]),
-A3 = 8,
+all_members([420, 450, 480, 510], [A0, A1, A2, A3]),
+A3 = 480,
 member([C3_val, c3], All),
 member([C2_val, c2], All),
-C3_val>C2_val,
-or([and([member([7, c0], All),A0 = 7]),and([member([7, c0], All),A0 = 7])]),
-or([and([A3 = 8,C1 = c3]),and([C3 = c3,A1 = 8])]).
+C3_val-C2_val=:=30,
+or([and([member([450, c0], All),A0 = 420]),and([member([420, c0], All),A0 = 450])]),
+or([and([A3 = 510,C1 = c3]),and([C3 = c3,A1 = 510])]).

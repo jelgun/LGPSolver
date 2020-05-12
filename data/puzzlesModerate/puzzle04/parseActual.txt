@@ -1,4 +1,4 @@
-comp(B3, A3, 1, >)
-comp(A0, A1, 1, >)
+comp(B3, A3, 60, >)
+comp(A0, A1, 60, >)
 either(C1, B0, B2)
 is(A2, B2)

@@ -1,4 +1,4 @@
 pairdiff(C1, B1, A2, A3)
-comp(B2, B0, 1, <)
+comp(B2, B0, 60, <)
 comp(B2, A3, >)
 pairdiff(A0, C3, B0, B3)

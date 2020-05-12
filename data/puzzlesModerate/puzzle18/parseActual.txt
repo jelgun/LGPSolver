@@ -1,4 +1,4 @@
 comp(A0, B1, >)
 pairdiff(C1, A1, B1, B2)
 either(C2, A3, B0)
-comp(B1, A3, 1, >)
+comp(B1, A3, 60, >)

@@ -74,9 +74,22 @@ def classify_clue(clue):
 
 # parse the comparison quantifier from a clue
 def parse_comp_quant(date_type, clue):
-    tp, val = get_heideltag(clue)
     quant = ''
-    if tp == "DURATION":
+
+    time_fractions = {
+        'half an hour': 30,
+        'half-hour': 30,
+        'quarter of an hour': 15,
+        'quarter-hour': 15
+    }
+   
+    for k, v in time_fractions.items():
+        if k in clue:
+            quant = v
+            break 
+
+    tp, val = get_heideltag(clue)
+    if quant == '' and tp == "DURATION":
         if date_type == "DAYS":
             if val[-1] == "W":
                 quant = 7 * int(val[1:-1])
@@ -94,7 +107,14 @@ def parse_comp_quant(date_type, clue):
                 quant = 10 * int(val[1:-2])
             elif val[-2:] == "CE":
                 quant = 100 * int(val[1:-2])
-    
+
+        elif date_type == "TIME":
+            if val[-1] == "H":
+                quant = int(val[2:-1]) * 60
+            elif val[-1] == 'M':
+                quant = int(val[2:-1])
+                
+
     if quant == '' and re.search('\s\d+', clue):
         quant = int(re.findall('\s\d+', clue)[0])
         for key, value in numerical.items():
@@ -151,6 +171,15 @@ def parse_puzzle_set(fl, length, ch = 0):
                                 date_type = "DAYS"
                             elif len(val) == 4:
                                 date_type = "YEARS"
+                        elif tp == "TIME":
+                            date_type = "TIME"
+                            # convert to minutes
+                            if i == "12:00pm":
+                                quantifier = 720
+                            elif i == "00:00am":
+                                quantifier = 0
+                            else:
+                                quantifier = int(val[-5:-3]) * 60 + int(val[-2:])
                     
                     if quantifier == '' and len(re.findall("\d*\.\d+|\d+", i)) != 0:
                         quantifier = float(re.findall("\d*\.\d+|\d+", i)[0])
