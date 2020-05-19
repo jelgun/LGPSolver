@@ -77,7 +77,7 @@ def parse_comp_quant(date_type, clue):
     quant = ''
 
     tp, val = get_heideltag(clue)
-    if quant == '' and tp == "DURATION":
+    if tp == "DURATION":
         if date_type == "DAYS":
             if val[-1] == "W":
                 quant = 7 * int(val[1:-1])
