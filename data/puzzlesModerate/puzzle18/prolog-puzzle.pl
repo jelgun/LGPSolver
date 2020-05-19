@@ -20,7 +20,7 @@ B3 = [A3, C3],
 All = [B0,B1,B2,B3],
 
 all_members([c0, c1, c2, c3], [C0, C1, C2, C3]),
-all_members([540, 600, 660, 1440], [A0, A1, A2, A3]),
+all_members([540, 600, 660, 720], [A0, A1, A2, A3]),
 member([C0_val, c0], All),
 C0_val>A1,
 or([and([A1 = 600,C2 = c1]),and([A2 = 600,C1 = c1])]),

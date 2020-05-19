@@ -25,7 +25,7 @@ def get_heideltag(text):
     with open("input.txt", 'w') as fl:
         fl.write(text)
     
-    os.system("java -jar de.unihd.dbs.heideltime.standalone.jar input.txt > output.xml")
+    os.system("java -jar de.unihd.dbs.heideltime.standalone.jar -l english-improved input.txt > output.xml")
 
     content = []
     # Read the XML file
@@ -76,18 +76,6 @@ def classify_clue(clue):
 def parse_comp_quant(date_type, clue):
     quant = ''
 
-    time_fractions = {
-        'half an hour': 30,
-        'half-hour': 30,
-        'quarter of an hour': 15,
-        'quarter-hour': 15
-    }
-   
-    for k, v in time_fractions.items():
-        if k in clue:
-            quant = v
-            break 
-
     tp, val = get_heideltag(clue)
     if quant == '' and tp == "DURATION":
         if date_type == "DAYS":
@@ -113,6 +101,8 @@ def parse_comp_quant(date_type, clue):
                 quant = int(val[2:-1]) * 60
             elif val[-1] == 'M':
                 quant = int(val[2:-1])
+            else:
+                quant = int(val[-2:])
                 
 
     if quant == '' and re.search('\s\d+', clue):
