@@ -1,4 +1,5 @@
 # LGPSolver
+Source code of our paper: https://www.aclweb.org/anthology/2020.findings-emnlp.100/
 
 # Requirements
 
